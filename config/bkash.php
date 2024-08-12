@@ -23,6 +23,6 @@ return [
     "bkash_username_4"      => env("BKASH_USERNAME_4", ""),
     "bkash_password_4"     => env("BKASH_PASSWORD_4", ""),
 
-    "callbackURL"     => env("BKASH_CALLBACK_URL", "http://127.0.0.1:8000/bkash/callback"),
+    "callbackURL"     => env("BKASH_CALLBACK_URL", "http://127.0.0.1:8000/"),
     'timezone'        => 'Asia/Dhaka',
 ];
